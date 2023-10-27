@@ -15,7 +15,9 @@
   z-index:1;
   background:#fff;
   height:10vh;
-}
+  justify-content: space-between;
+  align-items: center;
+} 
 .container {
   padding:20px;
   height: 90vh;

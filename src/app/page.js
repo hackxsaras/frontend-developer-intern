@@ -156,6 +156,13 @@ export default function Home() {
         <div id="logo" className="w-10 h-10 text-violet-600">
           <FontAwesomeIcon icon={logo}></FontAwesomeIcon>
         </div>
+        <div className='flex flex-center'>
+          <div className='mx-4'>Emotions</div>
+          <div className='mx-4'>Manifesto</div>
+          <div className='mx-4'>Self-Awareness test</div>
+          <div className='mx-4'>Work With Us</div>
+        </div>
+        <div className='bg-black text-white px-5 py-3 rounded-2xl'>Download App</div>
       </div>
       <div className={styles.sectionContainer}>
         <div className={`${styles.container} first mt-[10vh]`}>
